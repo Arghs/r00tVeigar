@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LeagueSharp;
 
 namespace r00tVeigar
 {
@@ -10,6 +11,8 @@ namespace r00tVeigar
     {
         static void Main(string[] args)
         {
+            Game.PrintChat("Welcome to r00tVeigar!");
+          
         }
     }
 }
